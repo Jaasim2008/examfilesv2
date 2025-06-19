@@ -107,6 +107,16 @@ sort($subjects);
     .bg-accent {
         background-color: var(--accent);
     }
+
+    #whatsappicon:hover {
+        filter: invert(68%) sepia(88%) saturate(445%) hue-rotate(81deg) brightness(88%) contrast(87%);
+    }
+    #facebookicon:hover {
+        filter: invert(30%) sepia(99%) saturate(2021%) hue-rotate(203deg) brightness(99%) contrast(91%);
+    }
+    #copylinkicon:hover {
+        filter: invert(14%) sepia(29%) saturate(2645%) hue-rotate(222deg) brightness(96%) contrast(97%);
+    }
   </style>
 </head>
 <body class="bg-base flex flex-col min-h-screen">
@@ -116,6 +126,7 @@ sort($subjects);
         <a href="https://buymeacoffee.com/jaazim" target="_blank" class="p-1 flex gap-1 items-center"><img class="w-[28px] invert" src="heart.svg"> Support Me</a>
         <button class="p-1 flex gap-1 items-center w-full" onclick="document.location.href = '/examfiles/2000s/'"><img class="w-[28px] invert" src="theme.svg"> Switch Theme</button>
     </section>
+    <!-- Main -->
     <main class="p-10 flex-grow">
     <h1 class="text-4xl font-extrabold text-center mb-2">CBSE Previous Year Papers</h1>
     <p class="text-accent italic text-center mb-10">No Sign Up | No OTP | No Ads | Solved | One-Click Download</p>
@@ -179,6 +190,15 @@ sort($subjects);
         </div>
     </div>
     </main>
+    <!-- Socials CTA -->
+    <section class="z-20 fixed right-0 top-[50%] hidden md:grid grid-cols-2 bg-secondary gap-1 border border-r-0 rounded-s-lg" dir="ltr" style="border-color: var(--primary);">
+        <div class="p-1 grid grid-rows-3 gap-2">
+            <a href="#"><img id="whatsappicon" class="w-[28px] invert" src="whatsapp.svg"></a>
+            <a href="#"><img id="facebookicon" class="w-[28px] invert" src="facebook.svg"></a>
+            <a href="#"><img id="copylinkicon" class="w-[28px] invert" src="copylink.svg"></a>
+        </div>
+        <div class="p-1 border-l border-white flex items-center"><p class="[writing-mode:vertical-lr]">Share Me!</p></div>
+    </section>
     <footer class="grid grid-cols-2 grid-rows-2 grid-flow-col pb-1 md:hidden flex justify-center items-center bg-secondary gap-1 text-sm">
         <button class="p-1 hover:text-secondary flex gap-1 items-center justify-center" onclick="toggleTheme()"><img class="w-[20px] invert" src="moon.svg" alt=""> Light/Dark Mode</button>
         <button class="p-1 flex gap-1 items-center justify-center" onclick="document.location.href = '/examfiles/2000s/'"><img class="w-[20px] invert" src="theme.svg"> Switch Theme</button>

@@ -40,9 +40,7 @@ sort($subjects);
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ExamFiles</title>
 
-  <!-- Inter Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     function toggleTheme() {
@@ -55,7 +53,7 @@ sort($subjects);
     body {
       font-family: 'Inter', sans-serif;
       color: var(--text);
-      background-image: url('bg.jpg');
+      background-color: lightblue;
     }
     :root {
         --comp: #A84958;
@@ -147,14 +145,26 @@ sort($subjects);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
         }
     }
+
+    #whatsappicon:hover {
+        filter: invert(68%) sepia(88%) saturate(445%) hue-rotate(81deg) brightness(88%) contrast(87%);
+    }
+    #facebookicon:hover {
+        filter: invert(30%) sepia(99%) saturate(2021%) hue-rotate(203deg) brightness(99%) contrast(91%);
+    }
+    #copylinkicon:hover {
+        filter: invert(14%) sepia(29%) saturate(2645%) hue-rotate(222deg) brightness(96%) contrast(97%);
+    }
   </style>
 </head>
 <body class="bg-cover bg-center bg-no-repeat bg-fixed flex flex-col min-h-screen">
+<video autoplay  muted  loop  playsinline  class="fixed top-0 left-0 w-full h-full object-cover z-[-1]"><source src="https://oeoaaluonpvxpyuvzmnl.supabase.co/storage/v1/object/public/assets/bg.mp4" type="video/mp4"></video>
     <section class="hidden md:inline fixed grid grid-rows-3 right-0 mr-6 bg-secondary gap-1 border border-t-0 divide-y divide-primary rounded-b-md" style="border-color: #A84958;">
         <button class="p-1 hover:text-secondary flex gap-1 items-center" onclick="toggleTheme()"><img class="w-[28px]" src="theme.svg"> Switch Theme</button>
-        <a href="aboutme.php" class="p-1 hover:text-secondary flex gap-1 items-center"><img class="w-[28px]" src="person.svg"> About Me</a>
+        <a href="/examfiles/aboutme.php" class="p-1 hover:text-secondary flex gap-1 items-center"><img class="w-[28px]" src="person.svg"> About Me</a>
         <a href="https://buymeacoffee.com/jaazim" target="_blank" class="p-1 hover:text-secondary flex gap-1 items-center"><img class="w-[28px]" src="heart.svg"> Support Me</a>
     </section>
+    <!-- Main -->
     <main class="p-10 flex-grow">
     <h1 class="text-white text-4xl font-extrabold text-center mb-2" style="text-shadow: black 1px 0 6px;">CBSE Previous Year Papers</h1>
     <p class="italic text-center mb-10">No Sign Up | No OTP | No Ads | Solved | One-Click Download</p>
@@ -218,11 +228,20 @@ sort($subjects);
         </div>
     </div>
     </main>
+    <!-- Socials CTA -->
+    <section class="z-20 fixed right-0 top-[50%] hidden md:grid grid-cols-2 bg-secondary gap-1 border border-r-0 rounded-s-lg" dir="ltr" style="border-color: #A84958;">
+        <div class="p-1 grid grid-rows-3 gap-2">
+            <a href="#"><img id="whatsappicon" class="w-[28px]" src="whatsapp.svg"></a>
+            <a href="#"><img id="facebookicon" class="w-[28px]" src="facebook.svg"></a>
+            <a href="#"><img id="copylinkicon" class="w-[28px]" src="copylink.svg"></a>
+        </div>
+        <div class="p-1 border-l border-white flex items-center"><p class="[writing-mode:vertical-lr]">Share Me!</p></div>
+    </section>
     <footer class="inline md:hidden flex justify-center items-center bg-secondary gap-1 text-sm border-t bg-blue-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
         <button class="p-1 hover:text-secondary flex gap-1 items-center justify-center" onclick="toggleTheme()">
             <img class="w-[20px]" src="theme.svg"> Switch Theme
         </button>
-        <a href="aboutme.php" class="p-1 hover:text-secondary flex gap-1 items-center justify-center">
+        <a href="/examfiles/aboutme.php" class="p-1 hover:text-secondary flex gap-1 items-center justify-center">
             <img class="w-[20px]" src="person.svg"> About Me
         </a>
         <a href="https://buymeacoffee.com/jaazim" target="_blank" class="p-1 hover:text-secondary flex gap-1 items-center justify-center">

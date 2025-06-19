@@ -92,7 +92,7 @@ if (($handle = fopen($filename, "r")) !== false) {
         <p>Who am I?<br>Im just a 17 yr old in senior high who does a bit of web dev</p>
         <p>Why is this free?<br>One day; when I wanted to find 2025 board papers, i spent 20 mins looking for it and the answer key, also many sites needed me to sign up and verify, it just felt like too much hassle to find two pdfs, so i created this.<br>also the hosting is free, so this is free, you can <a class="text-primary underline" href="#">support me</a> by the way</p>
         <p>Why is this in pink color? Are you a female?<br>no, i just like purple with black (change theme)</p>
-        <p>How can contact you?<br><a class="text-primary underline" href="mailto:jazztgblive@gmail.com">jazztgblive@gmail.com</a></p>
+        <p>How can contact you?<br><a class="text-primary underline" href="mailto:jazztgblive@gmail.com">jazztgblive@gmail.com</a><br><span class="italic">please report any broken pdfs/links</span></p>
         <p>What is going on with the file names?<br>It is weird because of file indexing, let me explain:<br>the first character (number) is used for denoting which year, like: 0 -> 2025, 1 -> 2024, 2 -> 2023... but: 10 -> 2026, 11 -> 2027...<br>the second character is for which grade, A -> Grade 12 & B -> Grade 10<br>and finally thrid character is for which subject:
             <table class="md:w-2/6 border border-primary table-auto text-sm">
             <thead class="bg-secondary text-base">

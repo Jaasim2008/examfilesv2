@@ -134,6 +134,7 @@
         </div>
     </div>
 </main>
+{{-- Socials CTA --}}
 <section class="z-20 fixed right-0 top-[50%] hidden md:grid grid-cols-2 bg-secondary gap-1 border border-r-0 rounded-s-lg" dir="ltr" style="border-color: var(--primary);">
     <div class="p-1 grid grid-rows-3 gap-2">
         <a href="#"><img id="whatsappicon" class="w-[28px] invert" src="{{asset('assets/icons/whatsapp.svg')}}"></a>
@@ -142,7 +143,15 @@
     </div>
     <div class="p-1 border-l border-white flex items-center"><p class="[writing-mode:vertical-lr]">Share Me!</p></div>
 </section>
-<footer class="grid grid-cols-2 grid-rows-2 grid-flow-col pb-1 md:hidden flex justify-center items-center bg-secondary gap-1 text-sm">
+{{-- Mobile Socials CTA --}}
+{{-- TODO: Link up the Links in Index --}}
+<section class="grid grid-cols-4 justify-items-center md:hidden text-sm border-t bg-secondary rounded-md rounded-b-none p-2" style="border-color: var(--primary);">
+    <img class="w-[20px]" src="{{ asset('assets/frostyicons/share.svg') }}" alt="Share:">
+    <a href="#"><img id="whatsappicon" class="w-[20px]  invert" src="{{ asset('assets/icons/whatsapp.svg') }}" alt="Whatsapp"></a>
+    <a href="#"><img id="facebookicon" class="w-[20px]  invert" src="{{ asset('assets/icons/facebook.svg') }}" alt="Facebook"></a>
+    <a href="#"><img id="copylinkicon" class="w-[20px]  invert" src="{{ asset('assets/icons/copylink.svg') }}" alt="Copy link"></a>
+</section>
+<footer class="grid grid-cols-2 grid-rows-2 grid-flow-col pb-1 md:hidden flex justify-center items-center bg-secondary gap-1 text-sm border-t" style="border-color: var(--primary);">
     <button class="p-1 hover:text-secondary flex gap-1 items-center justify-center" onclick="toggleTheme()"><img class="w-[20px] invert" src="{{ asset('assets/icons/moon.svg') }}" alt=""> Light/Dark Mode</button>
     <button class="p-1 flex gap-1 items-center justify-center" onclick="document.location.href = '/frosty'"><img class="w-[20px] invert" src="{{ asset('assets/icons/theme.svg') }}"> Switch Theme</button>
     <a href="/aboutme" class="p-1 hover:text-secondary flex gap-1 items-center justify-center"><img class="w-[20px] invert" src="{{ asset('assets/icons/person.svg') }}" alt=""> About Me</a>

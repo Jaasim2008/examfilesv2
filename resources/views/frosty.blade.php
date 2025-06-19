@@ -204,7 +204,15 @@
     </div>
     <div class="p-1 border-l border-white flex items-center"><p class="[writing-mode:vertical-lr]">Share Me!</p></div>
 </section>
-<footer class="inline md:hidden flex justify-center items-center bg-secondary gap-1 text-sm border-t bg-blue-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
+{{-- Mobile Socials CTA --}}
+{{-- TODO: Link up the Links --}}
+<section class="grid grid-cols-4 justify-items-center md:hidden text-sm border-t bg-blue-900 rounded-md rounded-b-none bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-b border-white p-2">
+    <img class="w-[20px]" src="{{ asset('assets/frostyicons/share.svg') }}" alt="Share:">
+    <a href="#"><img id="whatsappicon" class="w-[20px]" src="{{ asset('assets/frostyicons/whatsapp.svg') }}" alt="Whatsapp"></a>
+    <a href="#"><img id="facebookicon" class="w-[20px]" src="{{ asset('assets/frostyicons/facebook.svg') }}" alt="Facebook"></a>
+    <a href="#"><img id="copylinkicon" class="w-[20px]" src="{{ asset('assets/frostyicons/copylink.svg') }}" alt="Copy link"></a>
+</section>
+<footer class="inline md:hidden flex justify-center items-center bg-secondary gap-1 text-sm border-t bg-blue-900 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
     <button class="p-1 hover:text-secondary flex gap-1 items-center justify-center" onclick="toggleTheme()">
         <img class="w-[20px]" src="{{ asset('assets/frostyicons/theme.svg') }}"> Switch Theme
     </button>

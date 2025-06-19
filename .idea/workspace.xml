@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2610e7b6-d281-4f72-a940-6115108d0a3f" name="Changes" comment="laravel migrate">
-      <change afterPath="$PROJECT_DIR$/resources/views/frosty.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/examfiles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/examfiles.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2000s/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2000s/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2000s/heart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2000s/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2000s/person.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2000s/theme.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutme.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/person.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +17,25 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jaasim2008"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jaasim2008&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Jaasim2008/examfilesv2.git",
-    "accountId": "bc4ef837-31d7-41d5-a600-d247eb7a6f65"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jaasim2008/examfilesv2.git&quot;,
+    &quot;accountId&quot;: &quot;bc4ef837-31d7-41d5-a600-d247eb7a6f65&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
@@ -197,7 +182,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "laravel-ing",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Jaasim/Desktop/Laravel/examfiles/routes",
     "node.js.detected.package.eslint": "true",
@@ -243,8 +228,17 @@
       <updated>1750342749310</updated>
       <workItem from="1750342758464" duration="6607000" />
       <workItem from="1750352945168" duration="3063000" />
-      <workItem from="1750356347997" duration="4113000" />
+      <workItem from="1750356347997" duration="4452000" />
     </task>
+    <task id="LOCAL-00001" summary="laravel migrate">
+      <option name="closed" value="true" />
+      <created>1750362052856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750362052856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

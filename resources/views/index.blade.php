@@ -7,6 +7,8 @@
 
     <!-- Inter Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    {{-- Preload Frosty Background Video --}}
+    <link rel="preload" as="video" href="https://oeoaaluonpvxpyuvzmnl.supabase.co/storage/v1/object/public/assets/bg.mp4" type="video/mp4">
     @vite('resources/css/app.css')
     <script>
         (function () {
